@@ -1,0 +1,52 @@
+body {
+    font-family: "Cabin", sans-serif;
+    color: #373a3c;
+}
+
+.titulo-principal {
+    font-weight: 700;
+}
+
+.navbar-brand,
+footer {
+    font-family: "Lobster", sans-serif;
+}
+
+.carousel-indicators {
+    /* para que se posicionen debajo del slide y no encimma */
+    position: static;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #373a3c;
+    /* tamaño, tienen que ser iguales sino, no queda redondo */
+    width: 15px;
+    height: 15px;
+    /* para que se vuelva redondo */
+    border-radius: 50%;
+}
+
+.lista-puntos {
+    list-style: none;
+    padding-left: 0;
+}
+
+.titulo-recetas {
+    font-weight: 700;
+}
+
+.card h5 {
+    font-weight: 700;
+}
+
+.newsletter {
+    height: 450px;
+}
+
+.titulo-newsletter {
+    font-weight: 700;
+}
+
+.newsletter-ricomida {
+    font-family: "Lobster", sans-serif;
+}
